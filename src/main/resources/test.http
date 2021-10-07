@@ -1,0 +1,13 @@
+GET http://localhost:80/api/category
+Accept: application/json
+
+###
+POST http://localhost:80/api/type
+Content-Type: application/json
+
+{
+"name": "Lenovo",
+  "category": "api/category/3"
+}
+
+###
